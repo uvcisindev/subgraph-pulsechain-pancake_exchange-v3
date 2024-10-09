@@ -1,4 +1,4 @@
-specVersion: 0.0.4
+specVersion: 0.0.2
 description: PancakeSwap is a multi-chain decentralized exchange and automated market maker protocol.
 repository: https://github.com/pancakeswap/pancake-subgraph
 schema:
@@ -10,9 +10,9 @@ dataSources:
     name: Factory
     network: pulsechain
     source:
-      address: "0xe50dbdc88e87a2c92984d794bcf3d1d76f619c68"
+      address: "0x50C3b0c0A572f8D0Bc5a8b415dB3135b22f39a0A"
       abi: Factory
-      startBlock: 18900000
+      startBlock: 19637132
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.4
@@ -39,9 +39,9 @@ dataSources:
     name: NonfungiblePositionManager
     network: pulsechain
     source:
-      address: "0xcc05bf158202b4f461ede8843d76dcd7bbad07f2"
+      address: "0x78D691DBF010421d206FC67cb16E75F8797Aca52"
       abi: NonfungiblePositionManager
-      startBlock: 18900000
+      startBlock: 19637132
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.4
