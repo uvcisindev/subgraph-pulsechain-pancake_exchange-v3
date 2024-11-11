@@ -10,9 +10,9 @@ dataSources:
     name: Factory
     network: pulsechain
     source:
-      address: "0x50C3b0c0A572f8D0Bc5a8b415dB3135b22f39a0A"
+      address: "0x13C023875B90C64cE13cc7A322E05fD922b70470"
       abi: Factory
-      startBlock: 19637132
+      startBlock: 20477700
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.4
@@ -39,9 +39,9 @@ dataSources:
     name: NonfungiblePositionManager
     network: pulsechain
     source:
-      address: "0x78D691DBF010421d206FC67cb16E75F8797Aca52"
+      address: "0x9C25b86DB6d0Dbc516cfF0B5965f01b4263e9C95"
       abi: NonfungiblePositionManager
-      startBlock: 19637132
+      startBlock: 20477700
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.4

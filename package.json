@@ -23,8 +23,8 @@
     "deploy:arb": "graph deploy --product hosted-service pancakeswap/exchange-v3-arb",
     "deploy:polygon-zkevm-testnet": "graph deploy --studio exchange-v3-polygon-zkevm-test",
     "deploy:opbnb": "graph deploy --node https://open-platform-ap.nodereal.io/$API_KEY/opbnb-mainnet-graph-indexer/ --ipfs https://api.thegraph.com/ipfs/ pancakeswap/exchange-v3",
-    "create-local": "graph create pulsetest-error --node http://127.0.0.1:8020",
-    "deploy-local": "graph deploy pulsetest-error --ipfs http://127.0.0.1:5001 --node http://127.0.0.1:8020"
+    "create-local": "graph create subgraph-v3 --node http://127.0.0.1:8020",
+    "deploy-local": "graph deploy subgraph-v3 --ipfs http://127.0.0.1:5001 --node http://127.0.0.1:8020"
   },
   "resolutions": {
     "gluegun": "github:edgeandnode/gluegun#b34b9003d7bf556836da41b57ef36eb21570620a",
